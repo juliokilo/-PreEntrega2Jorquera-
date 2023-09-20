@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+a{
+    background-color: wheat;
+    padding: 5px 10px;
+    border-radius: 15%;
+    text-decoration: none;
+}
+.parrafo-historia{
+    color: darkkhaki;
+    font-size: medium;
+}
+@media screen and (max-width: 600px){
+    .parrafo-historia{
+        font-size: large;
+    }
+}
