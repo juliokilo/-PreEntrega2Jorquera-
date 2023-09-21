@@ -1,20 +1,23 @@
 body{
     background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
 }
-ul{
+ul{ /*Navegacion*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
 }
-a{
+a{ /*Ajustes de color y tamano a la lista de Navegacion*/
     background-color: wheat;
     padding: 5px 10px;
     border-radius: 15%;
     text-decoration: none;
+    color:black
 }
-ol{
+
+
+ol{ /*Grilla para las fotos*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 300px);
@@ -22,18 +25,20 @@ ol{
     align-self: end;
     position: relative;
 }
-img {
+img { /*Ajustes en el tamano de las fotos*/
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-iframe{
+iframe{ /*tamano del video de youtube*/
     width: 516px;
     height: 315px;
     object-fit: cover;
 }
-@media screen and (max-width: 600px){
-    img {
+@media screen and (max-width: 600px){ /*Adaptation a movil firts*/
+    img { 
+        display:grid;
+        grid-template-columns: auto;
         width: 65%;
         height: 65%;
         object-fit: cover;
@@ -43,4 +48,7 @@ iframe{
     height: 200px;
     object-fit: cover;
 }
+}
+footer{
+    color: wheat;
 }

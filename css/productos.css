@@ -1,45 +1,35 @@
 body{
     background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
 }
-ul{
+ul{ /*Lista de Navegacion*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
 }
-a{
+a{ /*Ajustes de color y tamano a la lista de Navegacion*/
     background-color: wheat;
     padding: 5px 10px;
     border-radius: 15%;
     text-decoration: none;
+    color:black
 }
-ol{
-    color: wheat;
+ol{/*Grilla para los productos*/
     display: grid;
-}
-.productos{
-    color: wheat;
-}
-ol{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns:3fr 3fr;
+    grid-template-rows:3fr 3fr;
     justify-items: center;
-    grid-gap: 50px;
-    height: 50vh;
-    list-style-type: none;
-    position: relative;
-}
-img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
-@media screen and (min-width: 600px){
-    img {
-        width: 50%;
-        height: 50%;
-        object-fit: cover;
-    }
+@media screen and (max-width: 600px){/*Adaptation a movil firts*/
+    ol {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
+footer{
+    color: wheat;
 }

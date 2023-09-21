@@ -1,67 +1,48 @@
 body{
     background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
 }
-ul{
+ul{/*Lista de Navegacion*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
-    text-decoration: none;
 }
-a{
+a{/*Ajuste de Color*/
     background-color: wheat;
     padding: 5px 10px;
     border-radius: 15%;
     text-decoration: none;
-    list-style-type: none;
+    color: black;
 }
-.container{
+ol{ /*Ajuste de Formulario*/
     display: flex;
     flex-wrap: wrap;
-    width: 170px;
-    height: 5px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
-    resize: none;color: wheat;
+    resize: none;
     list-style-type: none;
     gap: 10px;
-    resize: none;
     justify-content: center;
     align-items: center;
+    color:wheat
 }
-.comentario{
+.comentario{/*Ajuste del comentario*/
     display: flex;
     flex-direction: column;
     width: 300px;
-}
-div{
     color: wheat;
 }
-@media screen and (min-width: 600px){
-    .container{
-        width: 80px;
-        height: 5px;
+@media screen and (max-width: 600px){/*Adaptation a movil firts*/
+    ol{
+        width:200px;
     }
 }
 footer{
-    text-align: end;
     color: wheat;
 }
-.item{
-    display: flex;
-    margin-bottom: 10px;
+#textme{
+    resize: none;
 }
-.box-de-datos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-}
-li{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 

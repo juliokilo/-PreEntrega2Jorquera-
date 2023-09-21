@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/contacto.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body class="container">
+<body>
     <header>
-        <nav>
+        <nav> <!--Lista de Navegacion-->
             <ul>
                 <li>
                     <a href="../index.html">inicio</a>
@@ -34,22 +33,22 @@
     <div>
         <h1>Contacto</h1>
     </div>
-    <form>
-        <ol class="box-de-datos">
-            <li class="item">
-                <div class="cajitas">
+    <form> <!--Formulario de contacto-->
+        <ol>
+            <li>
+                <div>
                     <label class="label" for="nombre">Nombre y Apellido</label>
                 <input type="text" id="nombre">
                 </div>
             </li>
-            <li class="item">
-                <div class="cajitas">
+            <li>
+                <div>
                     <label class="label" for="celular">Numero de Telefono</label>
                 <input type="tel" id="celular">
-                </div>
+                <div>
             </li>
             <li>
-                <div class="cajitas">
+                <div>
                     <label class="label" for="email">Correo Electronico</label>
                     <input type="email" id="email">
                 </div>
@@ -58,12 +57,12 @@
                 <label for="comentario">Comentario</label>
             <textarea id="textme" cols="30" rows="10"></textarea>
             </li>
-            <div class="cajitas item">
+            <li>
+                <div>
                 <input type="submit" value="Mandar">
                 <input type="reset" value="Borrar">
-            </div>
-            
-            
+                </div>
+            </li>
         </ol>
     </form>
     
