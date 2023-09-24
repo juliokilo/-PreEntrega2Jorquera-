@@ -19,6 +19,9 @@ a{ /*Ajustes de color y tamano a la lista de Navegacion*/
     color: wheat;
     font-size: medium;
 }
+section{
+    color:wheat;
+}
 @media screen and (max-width: 600px){ /*Adaptation a movil firts*/
     .parrafo-historia{
         font-size: large;
