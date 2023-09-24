@@ -23,6 +23,7 @@ ol{/*Grilla para los productos*/
     width: 100%;
     height: 100%;
     object-fit: cover;
+    color: wheat;
 }
 @media screen and (max-width: 600px){/*Adaptation a movil firts*/
     ol {

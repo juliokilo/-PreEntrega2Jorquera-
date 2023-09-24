@@ -14,6 +14,7 @@ a{/*Ajustes de color y tamano de Lista de Navegacion */
     padding: 5px 10px;
     border-radius: 15%;
     text-decoration: none;
+    color:black;
 }
 @media screen and (min-width: 600px){/*Adaptation a movil firts*/
     body{
