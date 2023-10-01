@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="container-fluid"><!--Lista de Navegacion-->
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="container">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--menu bootstrap-->
                         <div class="container-fluid">
                         <a class="navbar-brand" href="#">Menu</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
                                 <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="historia.html">Historia</a>
+                                <a class="nav-link active" href="historia.html">Historia</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
@@ -30,7 +30,7 @@
                                 <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos
                                 </a>
                                 <ul class="dropdown-menu">
@@ -53,73 +53,74 @@
     </header>
 </body>
 
-<section class="container"><!--Fotos-->
-    <div class="iframe--video"><!--video de youtube-->
-        <h1>Galeria</h1>
+<section class="container-fluid">
+    <div>
+        <h1>Galeria</h1><!--titulo-->
+    </div>
+    <div class="video-container"><!--video de youtube-->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Zw3ZWuDruQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <ol class="col-md-12">
-    <div>
-        <img" src="../img/WhatsApp Image 2023-08-20 at 01.16.48.jpeg" alt="">
+    <ol class="row"><!--fotos-->
+    <div class="col-md-4" >
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-08-20 at 01.16.48.jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-08-20 at 01.16.49 (1).jpeg" alt="">
+    <div class="col-md-4"> 
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-08-20 at 01.16.49 (1).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-08-20 at 01.16.49 (2).jpeg" alt="">
+    <div class="col-md-4" >
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-08-20 at 01.16.49 (2).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-08-20 at 01.16.49.jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-08-20 at 01.16.49.jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (1).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (1).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (10).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (10).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="..//img/WhatsApp Image 2023-09-16 at 23.55.12 (11).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="..//img/WhatsApp Image 2023-09-16 at 23.55.12 (11).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (12).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (12).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (2).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (2).jpeg" alt="imagenes de pulseada">
     </div>
-    <div >
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (2).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (2).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (3).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (3).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (4).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (4).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (5).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (5).jpeg" alt="imagenes de pulseada">
     </div>
-    <div> 
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (6).jpeg" alt="">
+    <div class="col-md-4"> 
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (6).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (7).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (7).jpeg" alt="imagenes de pulseada">
     </div>
-    <div >
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (8).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (8).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (9).jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12 (9).jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.12.jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.12.jpeg" alt="imagenes de pulseada">
     </div>
-    <div>
-        <img src="../img/WhatsApp Image 2023-09-16 at 23.55.26.jpeg" alt="">
+    <div class="col-md-4">
+        <img class="fotos-galeria" src="../img/WhatsApp Image 2023-09-16 at 23.55.26.jpeg" alt="imagenes de pulseada">
     </div>
-</ol>
+    </ol>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <footer class="container">
     Derechos reservados a Julio.
