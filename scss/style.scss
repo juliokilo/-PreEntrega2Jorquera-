@@ -1,0 +1,144 @@
+body{
+    background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
+}
+
+.logo{ /*logo*/
+    margin-top: 50px;
+}
+
+.nav-item{ /*menu bootstrap*/
+    font-weight: bolder;
+}
+
+.navbar-brand{ /*menu bootstrap*/
+    font-weight: bolder;
+    background-color: darkseagreen;
+    border-radius:20%;
+}
+
+@media only screen and (max-width: 767px) { /*movil firts*/
+    .nav-item{
+    font-size: large;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ /*tablet firts*/ 
+    .nav-item{
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 1024px){ /*desktop firts*/ 
+    .nav-item{
+        font-size: xx-small;
+    }
+}
+
+.mx-2{
+    margin-bottom: 20px;
+}
+
+footer {
+    color: wheat;
+}
+
+/*pagina historia*/
+
+.container-historia{
+    color: wheat;
+    margin-left: 10%;
+}
+
+.logo-historia{ /*logo*/
+    margin-bottom: 2%;
+    margin-top: 50px;
+}
+
+/*galeria*/
+
+.logo-galeria{
+    margin-top: 50px;
+}
+
+.fotos-galeria { /*Ajustes en el tamano de las fotos*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container { 
+    height: 550px;
+    width: auto;
+    margin-bottom: -100px;
+}
+
+    @media screen and (min-width: 1024px){ /*movil firts*/
+        .video-container iframe{
+        width: 60%;
+        height: 60%;
+    }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px){ /*tablet firts*/ 
+        .video-container iframe{
+            width: 60%;
+            height: 60%;
+        }
+    }
+
+    @media only screen and (max-width: 767px){ /*desktop firts*/ 
+        .video-container iframe{
+            width: 60%;
+            height: 60%;
+        }
+    }
+
+    /*contacto*/
+
+    .logo-contacto{
+        margin-top: 50px;
+    }
+
+    ol{ /*formulario color de texto*/
+        color:wheat;
+        list-style-type: none;
+    }
+
+    .titulo-contacto{ /*titulo*/
+        color:wheat;
+    }
+
+    /*productos*/
+
+    .logo-productos{
+    margin-top: 50px;
+    }
+
+    .color-titulo{
+        color:wheat;
+    }
+
+    .boton-carrito{
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1024px){ /*movil firts*/
+        .fotos-productos{
+        width: 60%;
+        height: 60%;
+    }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px){ /*tablet firts*/ 
+        .fotos-productos{
+            width: 60%;
+            height: 60%;
+        }
+    }
+
+    @media only screen and (max-width: 767px){ /*desktop firts*/ 
+        .fotos-productos{
+            width: 60%;
+            height: 60%;
+        }
+    }
