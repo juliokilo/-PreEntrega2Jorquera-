@@ -1,9 +1,51 @@
+/*todos los titulos*/
+/*tamano de titulos*/
+.logo:hover {
+  width: 20%;
+  height: 20%;
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+.logo-historia:hover {
+  width: 20%;
+  height: 20%;
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+.logo-galeria:hover {
+  width: 20%;
+  height: 20%;
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+.logo-contacto:hover {
+  width: 20%;
+  height: 20%;
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+.logo-productos:hover {
+  width: 20%;
+  height: 20%;
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+/*inicio*/
 body {
   background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
 }
 
 .logo { /*logo*/
   margin-top: 50px;
+}
+
+.cover-inicio {
+  width: 100%;
 }
 
 .nav-item { /*menu bootstrap*/
@@ -40,14 +82,18 @@ footer {
 }
 
 /*pagina historia*/
-.container-historia {
+.container {
   color: wheat;
   margin-left: 10%;
 }
 
 .logo-historia { /*logo*/
   margin-bottom: 2%;
-  margin-top: 50px;
+  margin-top: 10px;
+}
+
+.vencidas-egipcio {
+  width: 50%;
 }
 
 /*galeria*/
@@ -95,7 +141,7 @@ ol { /*formulario color de texto*/
   list-style-type: none;
 }
 
-.titulo-contacto { /*titulo*/
+h1 { /*titulo*/
   color: wheat;
 }
 
@@ -129,6 +175,10 @@ ol { /*formulario color de texto*/
     width: 60%;
     height: 60%;
   }
+}
+h1 {
+  color: yellow;
+  font-size: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */

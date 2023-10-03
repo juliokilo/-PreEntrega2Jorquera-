@@ -1,9 +1,16 @@
+@import "variables";
+@import "animaciones";
+/*inicio*/
 body{
     background-image: url(../img/arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-preview.jpg);
 }
 
 .logo{ /*logo*/
     margin-top: 50px;
+}
+
+.cover-inicio{
+    width: 100%;
 }
 
 .nav-item{ /*menu bootstrap*/
@@ -44,14 +51,18 @@ footer {
 
 /*pagina historia*/
 
-.container-historia{
+.container{
     color: wheat;
     margin-left: 10%;
 }
 
 .logo-historia{ /*logo*/
     margin-bottom: 2%;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.vencidas-egipcio{
+    width: 50%;
 }
 
 /*galeria*/
@@ -104,7 +115,7 @@ footer {
         list-style-type: none;
     }
 
-    .titulo-contacto{ /*titulo*/
+    h1{ /*titulo*/
         color:wheat;
     }
 
@@ -141,4 +152,9 @@ footer {
             width: 60%;
             height: 60%;
         }
+    }
+
+    h1{
+        color: $color-titulos;
+        font-size: $size-titulos;
     }
