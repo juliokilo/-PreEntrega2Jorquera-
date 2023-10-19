@@ -96,7 +96,7 @@ footer {
   width: 50%;
 }
 
-/*galeria*/
+/*pagina galeria*/
 .logo-galeria {
   margin-top: 50px;
 }
@@ -131,7 +131,7 @@ footer {
     height: 60%;
   }
 }
-/*contacto*/
+/*pagina contacto*/
 .logo-contacto {
   margin-top: 50px;
 }
@@ -145,7 +145,7 @@ h1 { /*titulo*/
   color: wheat;
 }
 
-/*productos*/
+/*pagina productos*/
 .logo-productos {
   margin-top: 50px;
 }
@@ -154,26 +154,81 @@ h1 { /*titulo*/
   color: wheat;
 }
 
-.boton-carrito {
-  margin-bottom: 30px;
+.card-img-top {
+  height: 300px;
+  width: 100%;
 }
 
-@media screen and (min-width: 1024px) { /*movil firts*/
-  .fotos-productos {
-    width: 60%;
-    height: 60%;
+.multispinner, .cupping, .toproll, .cuadrado, .entrenamiento, .strap {
+  display: none;
+}
+
+#agarremultispinner:checked ~ .multispinner {
+  display: block;
+}
+
+#agarrecupping:checked ~ .cupping {
+  display: block;
+}
+
+#agarretoproll:checked ~ .toproll {
+  display: block;
+}
+
+#agarrecuadrado:checked ~ .cuadrado {
+  display: block;
+}
+
+#tiradeentrenamiento:checked ~ .entrenamiento {
+  display: block;
+}
+
+#referrestrap:checked ~ .strap {
+  display: block;
+}
+
+#todoslosagarres:checked ~ .row .card {
+  display: block;
+}
+
+#agarremultispinner, #agarrecupping, #agarretoproll, #agarrecuadrado, #tiradeentrenamiento, #referrestrap, #todoslosagarres {
+  display: none;
+}
+
+label {
+  border: solid 1px;
+  padding: 7px;
+  width: 116px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.referre-strap {
+  padding: 13px;
+}
+
+.agarre-toproll {
+  padding: 2px;
+}
+
+.agarre-cupping {
+  padding: 2px;
+}
+
+.agarre-multispinner {
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) { /*movil firts*/
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) { /*tablet firts*/
-  .fotos-productos {
-    width: 60%;
-    height: 60%;
-  }
-}
-@media only screen and (max-width: 767px) { /*desktop firts*/
-  .fotos-productos {
-    width: 60%;
-    height: 60%;
+@media screen and (min-width: 992px) { /*tablet firts*/
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 h1 {
